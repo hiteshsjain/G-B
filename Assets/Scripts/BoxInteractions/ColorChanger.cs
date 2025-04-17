@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ColorChanger : MonoBehaviour
 {
-    public Renderer CubeRenderer;
+    [SerializeField] private Renderer CubeRenderer;
      
     // Radnom color changer on event trigger i.e when a button is tapped
     public void ChangeColor()
